@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.8.6)
+      multipart-post (~> 1.1)
+    i18n (0.6.4)
+    mail (2.5.3)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.21)
+    multi_json (1.6.1)
+    multipart-post (1.2.0)
+    polyglot (0.3.3)
+    simple_oauth (0.2.0)
+    slop (3.4.3)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    twitter (4.5.0)
+      faraday (~> 0.8, < 0.10)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mail
+  slop
+  twitter

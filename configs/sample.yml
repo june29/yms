@@ -1,0 +1,37 @@
+target:
+  (監視したいウェブページのURL)
+notifications:
+  email:
+    to:
+      (通知先のメールアドレス)
+    from:
+      (送信元のメールアドレス)
+    subject:
+      (送信メールの題名)
+    body:
+      (送信メールの内容)
+    server:
+      address:
+        (送信に使用するメールサーバのアドレス)
+      domain:
+        (送信に使用するメールサーバのドメイン)
+      port:
+        (送信に使用するメールサーバのポート番号)
+      authentication:
+        (送信に使用するメールサーバの認証方式)
+      user_name:
+        (送信に使用するメールサーバにアクセスするユーザ名)
+      password:
+        (送信に使用するメールサーバにアクセスするパスワード)
+  twitter:
+    status:
+      (通知ツイートの内容 (140文字以内))
+    oauth:
+      consumer_key:
+        (通知ツイートのための認証情報)
+      consumer_secret:
+        (通知ツイートのための認証情報)
+      oauth_token:
+        (通知ツイートのための認証情報)
+      oauth_token_secret:
+        (通知ツイートのための認証情報)
